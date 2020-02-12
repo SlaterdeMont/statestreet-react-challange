@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+a:visited {
+  color: black;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-outer{
+  padding: 1% 5% 5% 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.title {
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.filtersHolder {
+  width: 200px;
+  text-align: left;
+  position: fixed;
+  top: 16%;
+  left: 5%;
+  line-height: 1.4;
+}
+
+.filterGroup {
+  padding: 3px 3px 10px 3px;
+  margin: 10px 0;
+  background:#E8E8E8;
+}
+
+.filterType {
+  margin: 5px 0;
+}
+
+.TransactionDetailPage {
+  text-align: left;
+  padding: 5% 5%;
+}
+
+.transaction.alt {
+  background: #F0F0F0;
+}
+
+.transactionsHolder {
+  width: calc(100% - 200px);
+}
+
+.tabletop {
+  width:calc(100% - 20px);
+  margin-left: 20px;
+  text-align: left;
+}
+
+.tableValues {
+  width:100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
