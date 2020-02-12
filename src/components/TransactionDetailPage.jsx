@@ -13,7 +13,7 @@ class TransactionDetailPage extends Component {
         <p><span  className="bold">Account No.:</span> {transaction && transaction.account}</p>
         <p><span  className="bold">Account Name:</span> {transaction && transaction.accountName}</p> 
         <p><span  className="bold">Currency Code:</span> {transaction && transaction.currencyCode}</p>
-        <p><span  className="bold">Amount:</span> {transaction && transaction.amount}</p>
+        <p><span  className="bold">Amount:</span> {transaction && `${transaction.currencySymbol} ${transaction.amount}`}</p>
         <p><span  className="bold">Transaction Type:</span> {transaction && transaction.transactionType}</p>
       </div>
     )
